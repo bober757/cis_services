@@ -1,0 +1,9 @@
+<WSInternetServicesListItem Checked="true" ID="7" Position="6" Prefix="services_items" countryCode="RU" dayLimit="0" jsonSettings="" maxNumberLength="0" minNumberLength="3" monthLimit="0" name="prozvona.net" numberPrefix="" openUrl="https://prozvona.net/tel/%S" openUrlForContact="false" openUrlForUnknownNumber="true" openUrlTitle="%view_number_reviews_text на prozvona.net" regionNames="" requestMethod="1" saveSharedPreferencesName="cis" servicesType="1" url="https://prozvona.net/tel/%S">
+   <responseParserList Prefix="services_items_parser_7" mItemsIds="|-1|-1|0|5|6|" mMaxID="6" mMaxPosition="2">
+      <mListItems>
+         <WSObjectResponseParserListItem ID="0" Position="0" Prefix="services_items_parser_7" answerPartsSeparator="" answerPostfix="" answerPrefix="" connector="\n" dataItemId="9" dataType="2" defaultValue="" emptyRegex="" enableParser="true" endParsingIfFound="true" name="Основная категория" processingMethodId="2" regex="&lt;div class=&quot;grade_head&quot;&gt;&lt;b&gt;([^&lt;]*)&lt;/b&gt;"/>
+         <WSObjectResponseParserListItem ID="5" Position="1" Prefix="services_items_parser_7" answerPartsSeparator="" answerPostfix="" answerPrefix="" connector="" dataItemId="8" dataType="2" defaultValue="" emptyRegex="Без комментария" enableParser="true" endParsingIfFound="true" name="Лучший отзыв" processingMethodId="5" regex="&lt;p class=&quot;komm-tel&quot;&gt;\n([\s\S]*?)\n&lt;/p&gt;"/>
+         <WSObjectResponseParserListItem ID="6" Position="2" Prefix="services_items_parser_7" answerPartsSeparator="" answerPostfix="" answerPrefix="" connector="" dataItemId="16" dataType="2" defaultValue="" emptyRegex="позитивный[0]~нейтральный~негативный[2]" enableParser="true" endParsingIfFound="true" name="рейтинг" processingMethodId="2" regex="&quot;&gt;Рейтинг номера \d+ . (\S*)&lt;/div&gt;"/>
+      </mListItems>
+   </responseParserList>
+</WSInternetServicesListItem>
