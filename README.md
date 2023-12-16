@@ -11,4 +11,4 @@
 - [zvonili.me](cis_zvonilime.xml) - https://zvonili.me/
 - [mysmsbox.ru](cis_mysmsboxru.xml) - https://mysmsbox.ru/phone-search (агрегатор других сервисов)
 - [2ГИС](cis_2gisru.xml) - https://2gis.ru/
-- [Яндекс](cis_yandexru.xml) - https://ya.ru/ (не работает, добавляет меню 'найти номер в яндекс')
+- [Яндекс](cis_yandexru.xml) - https://ya.ru/ 
